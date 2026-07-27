@@ -1,0 +1,117 @@
+* {
+    background-color:black;
+}
+
+h1, h2, p, a{
+    color: #00aa00;
+}
+
+html {
+    padding:0;
+    margin:0;
+}
+
+body {
+    padding:0;
+    margin:0;
+}
+
+#navbar {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    border: 5px solid #00aa00 ;
+}
+
+#navbar h1 {
+    padding:5px;
+    margin:0;
+}
+
+#nav-list {
+    list-style:none;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-around;
+}
+
+#navbar a {
+    padding:11px;
+    background-color:none;
+}
+
+#navbar li {
+    background-color:none;
+}
+
+#navbar li :hover {
+    border: 1px solid #00aa00;
+    padding:10px;
+}
+
+#hero {
+    display:flex;
+    height: 100vh;
+    background-image:url(images/lovely-background.png);
+    background-size:cover;
+    justify-content:center;
+}
+
+#hero-text {
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    width:50%;
+    height:50%;
+    align-self:center;
+    border:3px #00aa00 solid;
+    border-radius:3px;
+}
+
+#projects {
+    margin:10px;
+}
+
+.project {
+    height:40vh;
+    display:flex;
+    flex-flow:row nowrap;
+    margin:10px;
+    border:5px #00aa00 double;
+    border-radius: 12px;
+}
+
+.project img {
+    max-height:90%;
+    border:3px #00aa00 solid;
+    border-radius: 5px;
+}
+
+.project>* {
+    margin:10px;
+}
+
+.github-link a {
+    background-color:#00aa00;
+    color:black;
+}
+
+#about {
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    border-bottom:5px #00aa00 solid;
+}
+
+#about *{
+    width:50%;
+    text-align:center;
+}
+
+#contacts {
+    padding:30px;
+}
+
+@media (max-width:600px) {
+    
+}
